@@ -1,0 +1,113 @@
+<!--spacebar.foo-->
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>spacebar.foo</title>
+
+<style>
+    @font-face {
+   font-family: Nunito;
+   src: url(nunito.regular.ttf);
+}
+
+    * {
+       font-family: Nunito;
+    }
+
+    body{
+        height: 98vh;
+        width: 98vw;
+        background-image: linear-gradient(#000, #2b2b2b);
+        background-attachment: fixed;
+        color: #c5c7ae;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .headings{
+        color: #343621;
+        font-size: 1.3rem;
+        text-shadow: none;
+        transition: 0.3s;
+    }
+
+    .headings:hover{
+        color: #fbfd62;
+        text-shadow: 0 0 20px #fff, 0 0 30px #bbbd26, 0 0 40px #6d6e15, 0 0 50px #232407, 0 0 60px #000000;
+    }
+
+    .home{
+        height: 5rem;
+        width: 5rem;
+        animation: home_spin 3s infinite linear paused;
+    }
+
+    .home:hover{
+        animation-play-state: running;
+    }
+
+    .main{
+        background-color: #000;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 2rem;
+    }
+
+    @keyframes home_spin {
+        
+        100% {
+            rotate: 360deg;
+        }
+    }
+    
+</style>
+
+<body>
+<img src="spacebar_PCBbanner.png" alt="LA" style="width: 99.5vw" position="fixed">
+<div style="padding:1rem;">
+    <h1>Spacebar - Ein <span style="font-size: 1rem;">kleines</span> Hackmeet, das noch am Wachsen ist</h1>
+</div>
+<div style="position:absolute; top: 23rem; margin-left: 1.5rem;">
+    <a href="#heading1" class="headings">heading1</a><br>
+    <a href="#heading2" class="headings">heading2</a>
+</div>
+<div style="position:fixed; text-align: center; bottom: 2rem; right: 2rem;">
+    <img class="home" src="earth.svg" href="index.html">
+    <p>(click earth <br>
+        to go home)</p>
+</div>
+
+<div class="main">
+    <h1>Neuer Hackerspace in [Stadt] - Ein Ort zum Basteln und Lernen</h1>
+    <p>
+        Here's the article in German, written in the second person (Du-Form):
+
+**Ein neuer Hackerspace in [Stadt] - Eröffne dein eigenes Projekt**
+
+Hallo, wenn du dich für Basteln mit Elektronik, Programmieren oder einfach nur für das Machen von Dingen interessierst, dann solltest du dich über einen neuen Hackerspace in unserer Stadt informieren. Ich habe mich zusammen mit anderen lokalen Hackern zusammengetan, um einen Raum zu schaffen, an dem du gemeinsam an Projekten arbeiten, dich austauschen und lernen kannst.
+<br><br>
+Der Hackerspace ist in [Ort] untergebracht und verfügt über eine Vielzahl an Werkzeugen und Geräten, die du benötigst, um deine Ideen zu verwirklichen. Du hast 3D-Drucker, Laser-Cutter und Schweißstationen, sowie eine Vielzahl an gespendeten Hardware- und Software-Elementen, die du nutzen kannst. Der Raum ist frei zugänglich und bietet eine tolle Möglichkeit, um neue Leute kennenzulernen und dich voneinander auszutauschen.
+<br><br>
+Das Konzept ist so, dass du kommst und an eigenen Projekten arbeiten kannst, oder dich an einem neuen Projekt beteiligen kannst. Der Hackerspace wird regelmäßig Veranstaltungen und Workshops abhalten, an denen du neue Fähigkeiten erlernen kannst und Feedback auf deine Projekte erhalten. Wir werden auch regelmäßig Treffen mit anderen lokalen Hackerspaces abhalten, um uns voneinander auszutauschen und neue Ideen zu entwickeln.
+<br>
+Wir suchen nach dir, wenn du Interesse daran hast, dem Space beizutreten und zu beitragen. Die Mitgliedschaft ist offen für jeden, der an Maken interessiert ist, egal ob du erfahrener Hacker oder Anfänger bist. Wir freuen uns darauf, dich als neuen Mitglied zu begrüßen und gemeinsam neue Projekte zu entwickeln.
+<br>
+Wenn du mehr erfahren möchtest, kannst du unsere Website [Website URL] besuchen oder uns eine E-Mail an [E-Mail-Adresse] schreiben. Wir suchen ständig nach neuen Mitgliedern und freuen uns darauf, zu sehen, was Art von Projekten du entwickeln wirst.
+<br>
+<br>
+<h3>Über uns:</h3>
+Wir sind ein Gruppe lokaler Hacker, die gemeinsam einen Hackerspace in [Stadt] schaffen. Wir freuen uns darauf, einen Raum für Menschen zu schaffen, die an Maken interessiert sind. Unser Ziel ist es, eine Gemeinschaft von Mäkern zu schaffen, die sich austauschen und voneinander lernen können.
+<br>
+<br>
+<h3>Kontakt</h3>
+Für mehr Informationen über den Hackerspace oder wie man Mitglied werden kann, besuchen Sie bitte unsere Website [Website URL] oder senden Sie uns eine E-Mail an [E-Mail-Adresse]. Wir freuen uns darauf, von dir zu hören!
+    </p>
+    <img src="https://www.saarbruecker-zeitung.de/imgs/03/4/9/0/6/1/9/8/3/tok_878f09fb1964294c1b1a5654f52371ed/w2000_h1313_x1000_y661_SZ_49023269_1094975529_RGB_190_1_1_1ff53f2bea87213be4ca09978f43ed5e_1551008960_1094975529_b967c401f1-880b19a0106b8ca4.jpg" style="width: 100%;">
+</div>
+
+</body>
+
+</html> 
